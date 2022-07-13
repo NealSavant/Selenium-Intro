@@ -1,0 +1,124 @@
+[
+    {
+        "repo_name": "KnowSongRedux",
+        "languages": [
+            "Java",
+            "TypeScript",
+            "CSS",
+            "HTML",
+            "JavaScript"
+        ]
+    },
+    {
+        "repo_name": "FilmQueryProject",
+        "languages": [
+            "Java"
+        ]
+    },
+    {
+        "repo_name": "OAuth-2.0-Basic-Setup-DEMO",
+        "languages": [
+            "TypeScript",
+            "Java",
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ]
+    },
+    {
+        "repo_name": "Custom-Article-Index-App",
+        "languages": [
+            "Java",
+            "CSS"
+        ]
+    },
+    {
+        "repo_name": "EventTrackerProject",
+        "languages": [
+            "Java",
+            "JavaScript",
+            "HTML"
+        ]
+    },
+    {
+        "repo_name": "Branching",
+        "languages": null
+    },
+    {
+        "repo_name": "JPACRUDProject",
+        "languages": [
+            "Java",
+            "CSS"
+        ]
+    },
+    {
+        "repo_name": "SpringMVCFilmCRUD",
+        "languages": [
+            "Java",
+            "CSS",
+            "HTML"
+        ]
+    },
+    {
+        "repo_name": "PersonalSite",
+        "languages": null
+    },
+    {
+        "repo_name": "HTMLAssessment",
+        "languages": [
+            "HTML",
+            "CSS"
+        ]
+    },
+    {
+        "repo_name": "BlackJackProject",
+        "languages": [
+            "Java"
+        ]
+    },
+    {
+        "repo_name": "JetsProject",
+        "languages": [
+            "Java"
+        ]
+    },
+    {
+        "repo_name": "FoodTruckProject",
+        "languages": [
+            "Java"
+        ]
+    },
+    {
+        "repo_name": "MakeChangeProject",
+        "languages": [
+            "Java"
+        ]
+    },
+    {
+        "repo_name": "TicTacToe",
+        "languages": [
+            "Java"
+        ]
+    },
+    {
+        "repo_name": "RemoteControlProject",
+        "languages": [
+            "Java"
+        ]
+    },
+    {
+        "repo_name": "SDPre",
+        "languages": [
+            "Java",
+            "HTML",
+            "CSS",
+            "JavaScript"
+        ]
+    },
+    {
+        "repo_name": "Password-Recovery-Program",
+        "languages": [
+            "Java"
+        ]
+    }
+]
