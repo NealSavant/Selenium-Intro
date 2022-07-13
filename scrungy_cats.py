@@ -16,25 +16,25 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), opti
 driver.get("https://www.reddit.com/r/scrungycats/top/?t=all")
 driver.implicitly_wait(1)
 ################################################################################################
+
+# Scroll until reddit stops the user. (Time to go outside)
 count = 0
-while(count < 5):
+while(count < 750):
     driver.execute_script("window.scrollTo(0, document.body.scrollHeight);var lenOfPage=document.body.scrollHeight;return lenOfPage;")
     count += 1
     time.sleep(.5)
 
+# Pull all of the images
 images = driver.find_elements(By.CSS_SELECTOR, "img[alt='Post image']")
 
-for i, img in enumerate(images):
-    src = img.get_attribute('src')
-    if "external-preview" in src:
-        continue
-    urlretrieve(src, "./cats2/cat%s.png"% i)
-
-
+driver.close()
 
 # Write to File
-driver.close()
-# with open('results.json', 'w') as outfile:
-#     json.dump(repository_language_list, outfile)
-# print(repository_language_list)
+for i, img in enumerate(images):
+    src = img.get_attribute('src')
 
+    # Ignore Advertisements
+    if "external-preview" in src:
+        continue
+    
+    urlretrieve(src, "./cats/cat%s.png"% i)

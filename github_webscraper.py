@@ -70,5 +70,4 @@ for i in range(repo_count):
 driver.close()
 with open('results.json', 'w') as outfile:
     json.dump(repository_language_list, outfile)
-# print(repository_language_list)
 
