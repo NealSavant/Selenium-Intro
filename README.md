@@ -11,10 +11,11 @@ Ended up installing 952 cat photos in 10 minutes. Could be repurposed to downloa
 
 Slightly more advanced logic for scraping github data.
 
-### Start App
+## Start App
 
-Install PIP and Python 3
-(Make sure they are added to path environment for windows)
+Install PIP, Python 3, Google Chrome
+
+Fortunately I found a way to dynamically install the chromium driver to avoid the manual setup nonsense.
 
 Step 1) Create Virtual Environment:
 
