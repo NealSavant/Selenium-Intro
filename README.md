@@ -1,15 +1,15 @@
 # Selenium-Intro
 
-Ended up installing 952 cat photos in 10 minutes. Could be repurposed to download photos from many different subreddits.
-
-Slightly more advanced logic for scraping github data.
-
-This was suprisingly easy, using the official documentation and the VSCode linter I was able to hack my way through the process.
+Using the official documentation and the VSCode linter I was able to hack my way through the process.
 
 ## Description
 - Two web scraping scripts.
  1. github_webscraper.py Opens the provided github repository link and saves the Names of the repos and Languages used to a .json file 
  2. scrungy_cats.py Opens a subreddit and downloads all images from the top posts until reddit stops displaying results.
+
+Ended up installing 952 cat photos in 10 minutes. Could be repurposed to download photos from many different subreddits.
+
+Slightly more advanced logic for scraping github data.
 
 ### Start App
 
