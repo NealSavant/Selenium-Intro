@@ -1,6 +1,8 @@
 # Selenium-Intro
-Took a few hours to play around with webscraping using test automation software. 
+
 Ended up installing 952 cat photos in 10 minutes. Could be repurposed to download photos from many different subreddits.
+
+Slightly more advanced logic for scraping github data.
 
 This was suprisingly easy, using the official documentation and the VSCode linter I was able to hack my way through the process.
 
