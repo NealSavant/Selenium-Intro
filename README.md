@@ -11,7 +11,7 @@ Ended up installing 952 cat photos in 10 minutes. Could be repurposed to downloa
 
 Install PIP, Python 3, Google Chrome
 
-The chromium driver is encapsulated within runtime to avoid the manual setup nonsense.
+The chromium driver is encapsulated within runtime to avoid manual setup.
 
 Step 1) Create Virtual Environment:
 
