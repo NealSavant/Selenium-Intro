@@ -1,7 +1,5 @@
 # Selenium-Intro
 
-Using the official documentation and the VSCode linter I was able to hack my way through the process.
-
 ## Description
 - Two web scraping scripts.
  1. github_webscraper.py Opens the provided github repository link and saves the Names of the repos and Languages used to a .json file 
@@ -9,13 +7,11 @@ Using the official documentation and the VSCode linter I was able to hack my way
 
 Ended up installing 952 cat photos in 10 minutes. Could be repurposed to download photos from many different subreddits. Eventually will try to pull videos as well.
 
-Slightly more advanced logic for scraping github data.
-
 ## Start App
 
 Install PIP, Python 3, Google Chrome
 
-Fortunately I found a way to dynamically install the chromium driver to avoid the manual setup nonsense.
+The chromium driver is encapsulated within runtime to avoid the manual setup nonsense.
 
 Step 1) Create Virtual Environment:
 
