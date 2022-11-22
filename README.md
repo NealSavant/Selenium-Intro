@@ -5,7 +5,7 @@
  1. github_webscraper.py Opens the provided github repository link and saves the Names of the repos and Languages used to a .json file 
  2. scrungy_cats.py Opens a subreddit and downloads all images from the top posts until reddit stops displaying results.
 
-Ended up installing 952 cat photos in 10 minutes. Could be repurposed to download photos from many different subreddits. Eventually will try to pull videos as well.
+Ended up installing 952 cat photos in 10 minutes. Could be repurposed to download photos from many different subreddits.
 
 ## Start App
 
